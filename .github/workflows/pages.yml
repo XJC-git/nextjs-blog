@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ThinkStation
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
